@@ -1,0 +1,164 @@
+body{
+    font-family: "Montserrat", Arial, Helvetica, sans-serif, sans-serif;
+    font-size: medium;
+    margin: 0px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: none;
+    background-color: #E6E6E6;
+}
+/* inicio de header */
+header.top{
+    display: block;
+    padding: 5px;
+    border: solid #004684 1px;
+    background-color:#004684;
+}
+header.top > img#logo{
+    display: inline;
+    width: 172px;
+    height: 80px;
+    padding: 1px;
+    margin: 10px;
+    vertical-align: middle;
+}
+
+/* fim de header */
+
+
+/* inicio de article */
+h1#mauanet{
+    display: block;
+    color: #004684;
+    font-size: xx-large;
+    margin-top: 15px;
+    font-weight: bold;
+    margin-bottom:10px;
+}
+
+
+/* fim de article */
+
+
+
+
+/* inicio de footer */
+footer{
+    font-size: medium;
+    background-color: #004684;
+    width: auto;
+    color: #E6E6E6;
+    text-align: center;
+    margin-top: auto;
+}
+
+
+/* fim de footer */
+
+
+
+
+
+@media (max-width: 576px){
+border{
+    min-height: auto;
+}
+/* inicio de header */
+
+header.top > img#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* fim de header */
+
+
+
+/* inicio de article */
+h1#mauanet{
+    text-align: center;
+}
+
+#dadosPessoais{
+    display: block;
+    /* border: 1px solid red; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom:10px;
+    text-align: center;
+}
+
+#dadosPessoais > div > p{
+    margin:5px;
+    text-align: center;
+    margin-top:0px;
+    font-weight: bold;
+    font-size:medium;
+}
+
+#dadosPessoais > div > p.dados{
+    margin-bottom: 0px;
+}
+
+#dadosPessoais > div > p#RA, #dadosPessoais > div >p#GTL, #dadosPessoais > div > p#nome, #dadosPessoais > div > p#email, #dadosPessoais > div > p#celular{
+    padding-left:10%;
+    padding-right:10%;
+    font-size:medium;
+    font-weight:lighter;
+}
+
+
+
+h2{
+
+    text-align:center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size:x-large;
+    color:#004684;
+}
+
+#menu > a, div#dadosPessoais > a#alterarInfo, a#logout{
+    display: block;
+    font-size: larger;
+    text-align:center;
+    background-color:#004684;
+    margin: 10px 5%;
+    padding:15px;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+div#dadosPessoais > a#alterarInfo{
+    background-color: grey;
+    
+}
+
+a#logout{
+    background-color: #84000b;
+    margin-bottom: 5%;
+}
+
+/* fim de article */
+
+
+
+
+/* inicio de footer */
+footer{
+    display: block;
+    font-size: small;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+    
+}
+
+/* fim de footer */
+
+}
