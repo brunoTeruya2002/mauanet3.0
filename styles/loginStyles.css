@@ -117,13 +117,14 @@ input[type=text], input[type=password]{
     padding: 5px;
     margin: 0px auto 10px 10px;
     box-sizing: border-box;
-    font-size: large;
+    font-size: larger;
     background-color: #E6E6E6;
     border: none;
     border-bottom: 1px solid black;
     outline: none;
     font-weight:normal;
-    
+    font-family: verdana;
+    /* !!!!!!!!!!!!!!!!!!! */
     
     
 }
