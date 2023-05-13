@@ -33,9 +33,78 @@ h1#mauanet{
     color: #004684;
     font-size: xx-large;
     margin-top: 15px;
-    font-weight: bold;
     margin-bottom:10px;
+    font-weight: bold;
+    text-align:center;
 }
+
+div#dadosPessoais > div{
+    display: table;
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom:10px;
+    
+    
+    
+}
+
+div#dadosPessoais > div > div{
+    display: table-row;
+    text-align:left;
+    margin:5px;
+    text-align: center;
+    margin-top:0px;
+    font-weight: bold;
+    font-size:medium;
+    
+    
+    
+}
+
+div#dadosPessoais > div > div > p{
+    display:table-cell;
+    font-size:medium;
+    font-weight:lighter;
+    padding: 10px;
+    text-align:left;   
+}
+div#dadosPessoais > div > div > p.dados{
+    font-weight:bold;
+    text-align:center;
+}
+
+
+#menu > a, a#alterarInfo, a#logout{
+    display:inline;
+    font-size:medium;
+    text-align:center;
+    background-color:#004684;
+    padding:10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+a#alterarInfo{
+    display:block;
+    background-color: grey;
+    margin-bottom:10px;
+    
+    
+}
+
+a#logout{
+    display:block;
+    background-color: #84000b;
+   
+    
+}
+
+
+
+
 
 
 /* fim de article */
@@ -81,7 +150,14 @@ h1#mauanet{
     text-align: center;
 }
 
-#dadosPessoais{
+
+div#dadosPessoais > div, div#dadosPessoais > div > div{
+    display: block;
+}
+
+
+
+div#dadosPessoais{
     display: block;
     /* border: 1px solid red; */
     margin-left: auto;
@@ -91,23 +167,30 @@ h1#mauanet{
     text-align: center;
 }
 
-#dadosPessoais > div > p{
+div#dadosPessoais > div > div > p{
+    display:block;
     margin:5px;
     text-align: center;
     margin-top:0px;
     font-weight: bold;
     font-size:medium;
+    background-color: transparent;
+    padding: 0px;
+    border:none;
+    color: black;
+    
 }
 
-#dadosPessoais > div > p.dados{
+div#dadosPessoais > div > div > p.dados{
     margin-bottom: 0px;
 }
 
-#dadosPessoais > div > p#RA, #dadosPessoais > div >p#GTL, #dadosPessoais > div > p#nome, #dadosPessoais > div > p#email, #dadosPessoais > div > p#celular{
+div#dadosPessoais > div > div > p#RA, #dadosPessoais > div > div > p#GTL, #dadosPessoais > div > div > p#nome, #dadosPessoais > div > div > p#email, #dadosPessoais > div > div > p#celular{
     padding-left:10%;
     padding-right:10%;
     font-size:medium;
     font-weight:lighter;
+    word-break: break-all; 
 }
 
 
@@ -121,7 +204,11 @@ h2{
     color:#004684;
 }
 
-#menu > a, div#dadosPessoais > a#alterarInfo, a#logout{
+#menu{
+    margin-bottom: 5%;
+}
+
+#menu > a, a#alterarInfo, a#logout{
     display: block;
     font-size: larger;
     text-align:center;
@@ -133,8 +220,9 @@ h2{
     border-radius: 30px;
 }
 
-div#dadosPessoais > a#alterarInfo{
+a#alterarInfo{
     background-color: grey;
+    margin-bottom:0px;
     
 }
 
@@ -160,5 +248,21 @@ footer{
 }
 
 /* fim de footer */
+
+}
+
+@media(max-width: 280px){
+    body{
+        font-size:smaller;
+        word-break: break-all;
+    }
+    
+    header.top > img#logo{
+        width: 60%;
+        height: 60%;   
+    }
+    div#dadosPessoais > div > div > p#RA, #dadosPessoais > div > div > p#GTL, #dadosPessoais > div > div > p#nome, #dadosPessoais > div > div > p#email, #dadosPessoais > div > div > p#celular, .dados{
+        word-break: break-all; 
+    }
 
 }
