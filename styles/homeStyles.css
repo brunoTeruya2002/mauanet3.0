@@ -75,9 +75,8 @@ div#dadosPessoais > div > div > p.dados{
     text-align:center;
 }
 
-
 #menu > a, a#alterarInfo, a#logout{
-    display:inline;
+    display:inline-block;
     font-size:medium;
     text-align:center;
     background-color:#004684;
@@ -85,25 +84,36 @@ div#dadosPessoais > div > div > p.dados{
     color: white;
     text-decoration: none;
     border-radius: 30px;
+    margin:5px;
+    width:160px;
+    
+    
 }
-
 a#alterarInfo{
-    display:block;
     background-color: grey;
-    margin-bottom:10px;
-    
-    
 }
 
 a#logout{
-    display:block;
     background-color: #84000b;
-   
-    
 }
 
+h2{
+   
+    text-align:center;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    font-size:xx-large;
+    color:#004684;
+}
 
+#menu{
+    
+    text-align: center;
+    margin-bottom:50px;
 
+   
+   
+}
 
 
 
@@ -218,6 +228,7 @@ h2{
     color: white;
     text-decoration: none;
     border-radius: 30px;
+    width:auto; 
 }
 
 a#alterarInfo{
