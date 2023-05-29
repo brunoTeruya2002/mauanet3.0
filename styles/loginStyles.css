@@ -153,7 +153,8 @@ input[type=text], input[type=password]{
 }
 
 .enviar:hover {
-	background: #0d93f9;
+	/* background: #0d93f9; */
+    filter: brightness(170%);
 	color: #E6E6E6;
 	/* border: 1px solid #004684; */
 	box-shadow: 1px 1px 1px black;
