@@ -1,4 +1,4 @@
-body{
+body {
     font-family: "Montserrat", 'Times New Roman', Times, serif, Helvetica, sans-serif, sans-serif;
     font-size: medium;
     margin: 0px;
@@ -10,13 +10,14 @@ body{
 }
 
 /* inicio de header */
-header.top{
+header.top {
     display: block;
     padding: 5px;
     border: solid #004684 1px;
-    background-color:#004684;
+    background-color: #004684;
 }
-header.top > img#logo{
+
+header.top>img#logo {
     display: inline;
     width: 172px;
     height: 80px;
@@ -29,100 +30,105 @@ header.top > img#logo{
 
 
 /* inicio de article */
-h1#mauanet{
+h1#mauanet {
     display: block;
     color: #004684;
     font-size: xx-large;
     margin-top: 15px;
-    margin-bottom:10px;
+    margin-bottom: 10px;
     font-weight: bold;
-    text-align:center;
+    text-align: center;
 }
 
-div#dadosPessoais > div{
+div#dadosPessoais>div {
     display: table;
-    text-align:center;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
-    margin-bottom:10px;
-    
-    
-    
+    margin-bottom: 10px;
+
+
+
 }
 
-div#dadosPessoais > div > div{
+div#dadosPessoais>div>div {
     display: table-row;
-    text-align:left;
-    margin:5px;
+    text-align: left;
+    margin: 5px;
     text-align: center;
-    margin-top:0px;
+    margin-top: 0px;
     font-weight: bold;
-    font-size:medium;
-    
-    
-    
+    font-size: medium;
 }
 
-div#dadosPessoais > div > div > p{
-    display:table-cell;
-    font-size:medium;
-    font-weight:lighter;
+div#dadosPessoais>div>div>p {
+    display: table-cell;
+    font-size: medium;
+    font-weight: lighter;
     padding: 10px;
-    text-align:left;   
-}
-div#dadosPessoais > div > div > p.dados{
-    font-weight:bold;
-    text-align:center;
+    text-align: left;
 }
 
-#menu > a, a#alterarInfo, a#logout{
-    display:inline-block;
-    font-size:medium;
-    text-align:center;
-    background-color:#004684;
-    padding:10px;
+div#dadosPessoais>div>div>p.dados {
+    font-weight: bold;
+    text-align: center;
+}
+
+#menu>a,
+a#alterarInfo,
+a#logout {
+    display: inline-block;
+    font-size: medium;
+    text-align: center;
+    background-color: #004684;
+    padding: 10px;
     color: white;
     text-decoration: none;
     border-radius: 30px;
-    margin:5px;
-    width:160px;
-    
-    
+    margin: 5px;
+    width: 160px;
+
+
 }
-a#alterarInfo{
+
+a#alterarInfo {
     background-color: rgb(80, 80, 80);
 }
 
-a#logout{
+a#logout {
     background-color: #84000b;
 }
 
-#menu > a:hover, a#alterarInfo:hover, a#logout:hover{
+#menu>a:hover,
+a#alterarInfo:hover,
+a#logout:hover {
     /* background: #0d93f9; */
     filter: brightness(170%);
-	color: #E6E6E6;
-	/* border: 1px solid #004684; */
-	box-shadow: 1px 1px 1px black;
-	text-shadow: none;
+    color: #E6E6E6;
+    /* border: 1px solid #004684; */
+    box-shadow: 1px 1px 1px black;
+    text-shadow: none;
 }
 
-h2{
-   
-    text-align:center;
+.container {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
     margin-top: 40px;
     margin-bottom: 25px;
-    font-size:xx-large;
-    color:#004684;
+    font-size: xx-large;
+    color: #004684;
 }
 
-#menu{
-    
+#menu {
     text-align: center;
-    margin-bottom:50px;
+    margin-bottom: 50px;
 
-   
-   
+
+
 }
 
 
@@ -133,7 +139,7 @@ h2{
 
 
 /* inicio de footer */
-footer{
+footer {
     font-size: medium;
     background-color: #004684;
     width: auto;
@@ -149,137 +155,151 @@ footer{
 
 
 
-@media (max-width: 576px){
-border{
-    min-height: auto;
-}
-/* inicio de header */
+@media (max-width: 576px) {
+    border {
+        min-height: auto;
+    }
 
-header.top > img#logo{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
+    /* inicio de header */
 
-/* fim de header */
+    header.top>img#logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
-
-
-/* inicio de article */
-h1#mauanet{
-    text-align: center;
-}
-
-
-div#dadosPessoais > div, div#dadosPessoais > div > div{
-    display: block;
-}
+    /* fim de header */
 
 
 
-div#dadosPessoais{
-    display: block;
-    /* border: 1px solid red; */
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    margin-bottom:10px;
-    text-align: center;
-}
+    /* inicio de article */
+    h1#mauanet {
+        text-align: center;
+    }
 
-div#dadosPessoais > div > div > p{
-    display:block;
-    margin:5px;
-    text-align: center;
-    margin-top:0px;
-    font-weight: bold;
-    font-size:medium;
-    background-color: transparent;
-    padding: 0px;
-    border:none;
-    color: black;
-    
-}
 
-div#dadosPessoais > div > div > p.dados{
-    margin-bottom: 0px;
-}
-
-div#dadosPessoais > div > div > p#RA, #dadosPessoais > div > div > p#GTL, #dadosPessoais > div > div > p#nome, #dadosPessoais > div > div > p#email, #dadosPessoais > div > div > p#celular{
-    padding-left:10%;
-    padding-right:10%;
-    font-size:medium;
-    font-weight:lighter;
-    word-break: break-all; 
-}
+    div#dadosPessoais>div,
+    div#dadosPessoais>div>div {
+        display: block;
+    }
 
 
 
-h2{
+    div#dadosPessoais {
+        display: block;
+        /* border: 1px solid red; */
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
 
-    text-align:center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size:x-large;
-    color:#004684;
-}
+    div#dadosPessoais>div>div>p {
+        display: block;
+        margin: 5px;
+        text-align: center;
+        margin-top: 0px;
+        font-weight: bold;
+        font-size: medium;
+        background-color: transparent;
+        padding: 0px;
+        border: none;
+        color: black;
+    }
 
-#menu{
-    margin-bottom: 5%;
-}
+    div#dadosPessoais>div>div>p.dados {
+        margin-bottom: 0px;
+    }
 
-#menu > a, a#alterarInfo, a#logout{
-    display: block;
-    font-size: larger;
-    text-align:center;
-    margin: 10px 5%;
-    padding:15px;
-    color: white;
-    text-decoration: none;
-    border-radius: 30px;
-    width:auto; 
-}
-
-a#alterarInfo{
-    margin-bottom:0px;
-}
-
-a#logout{
-    margin-bottom: 5%;
-}
-
-/* fim de article */
-
-
-
-
-/* inicio de footer */
-footer{
-    display: block;
-    font-size: small;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    margin-top: auto;
-    
-}
-
-/* fim de footer */
-
-}
-
-@media(max-width: 280px){
-    body{
-        font-size:smaller;
+    div#dadosPessoais>div>div>p#RA,
+    div#dadosPessoais>div>div>p#curso,
+    #dadosPessoais>div>div>p#GTL,
+    #dadosPessoais>div>div>p#nome,
+    #dadosPessoais>div>div>p#email,
+    #dadosPessoais>div>div>p#celular {
+        padding-left: 10%;
+        padding-right: 10%;
+        font-size: medium;
+        font-weight: lighter;
         word-break: break-all;
     }
-    
-    header.top > img#logo{
-        width: 60%;
-        height: 60%;   
+
+
+
+    h2 {
+
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: x-large;
+        color: #004684;
     }
-    div#dadosPessoais > div > div > p#RA, #dadosPessoais > div > div > p#GTL, #dadosPessoais > div > div > p#nome, #dadosPessoais > div > div > p#email, #dadosPessoais > div > div > p#celular, .dados{
-        word-break: break-all; 
+
+    #menu {
+        margin-bottom: 5%;
+    }
+
+    #menu>a,
+    a#alterarInfo,
+    a#logout {
+        display: block;
+        font-size: larger;
+        text-align: center;
+        margin: 10px 5%;
+        padding: 15px;
+        color: white;
+        text-decoration: none;
+        border-radius: 30px;
+        width: auto;
+    }
+
+    a#alterarInfo {
+        margin-bottom: 0px;
+    }
+
+    a#logout {
+        margin-bottom: 5%;
+    }
+
+    /* fim de article */
+
+
+
+
+    /* inicio de footer */
+    footer {
+        display: block;
+        font-size: small;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        margin-top: auto;
+
+    }
+
+    /* fim de footer */
+
+}
+
+@media(max-width: 280px) {
+    body {
+        font-size: smaller;
+        word-break: break-all;
+    }
+
+    header.top>img#logo {
+        width: 60%;
+        height: 60%;
+    }
+
+    div#dadosPessoais>div>div>p#RA,
+    #dadosPessoais>div>div>p#GTL,
+    #dadosPessoais>div>div>p#nome,
+    #dadosPessoais>div>div>p#email,
+    #dadosPessoais>div>div>p#celular,
+    .dados {
+        word-break: break-all;
     }
 
 }

@@ -139,7 +139,7 @@ input[type=text], input[type=password]{
 
 
 .enviar {
-    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
     font-size: large;
 	background: #004684;
     padding: 10px;
